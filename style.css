@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+ul {
+  display: flex;
+  gap: 25px;
+  padding-right: 300px;
+}
+ul li {
+  list-style: none;
+  font-weight: 500;
+}
+.btns {
+  display: flex;
+  gap: 25px;
+}
+.button-one {
+  padding: 10px;
+  border: none;
+  background-color: rgba(255, 63, 58, 1);
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.button-two {
+  padding: 10px;
+  border: none;
+  background: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.active {
+  color: rgba(255, 63, 58, 1);
+}
+.online_courses-text {
+  text-align: center;
+  padding-top: 80px;
+}
+.online_courses-text h4{
+  padding-bottom: 8px;
+}
+.online_courses-text h1{
+  font-size: 40px;
+}
+.menejment_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.menejment_list-h4 {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+.menejment_list-h4 h4 {
+  color: rgba(154, 156, 165, 1);
+  font-weight: 700;
+}
+.all-border {
+  cursor:pointer;
+  padding: 3px 10px;
+  border: 1px solid rgba(255, 63, 58, 1);
+  color: rgba(255, 63, 58, 1);
+}
+.menejment-input {
+  border: 1px solid rgba(154, 156, 165, 1);
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.menejment-input input{
+  border: none;
+  outline: none;
+  color: rgba(154, 156, 165, 1);
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.menejment-input i{
+  color: rgba(154, 156, 165, 1);
+}
+.cards-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.card-flex-one-text {
+  width: 390px;
+  box-shadow: 1px 7px 9px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding: 20px;
+}
+.card-flex-one-text img {
+  padding-bottom: 20px;
+}
+.card-flex-one-text h3 {
+  padding-bottom: 20px;
+}
+.card-flex-one-text p {
+  color: rgb(111, 111, 111);
+  font-weight: 500;
+}
+.send {
+  color: rgba(255, 63, 58, 1);
+}
+.loder {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
